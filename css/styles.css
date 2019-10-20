@@ -1,8 +1,8 @@
 body {
 
     background: #f9f7f2;     
+    
 }
-
 
 .right{
     right:250px;
@@ -58,16 +58,15 @@ section {
     margin-bottom: 30px;
     font-size: 25px;
     font-family: 'Vidaloka';
-    border: solid red 1px;
     
 }
-  .btn-learn{
+  .brand-message  .btn-learn{
     
     border-radius: 0;
     width: 200px;
     padding: 15px 50px; 
     display: inline-block;
-    background: #f0f0f0;
+    background: white;
     color:#000;
     padding: 15px 50px; 
     text-transform: uppercase; 
@@ -102,14 +101,12 @@ width:300px;
 font-size: 18px;
 font-weight: 400;   
 font-family: 'Vidaloka';
-border: solid red 1px;
+
 
  }
 
- .row{
-     border: solid red 1px;
- }
-  .marley-message .btn-learn{
+
+   .marley-message .btn-learn{
     
     border-radius: 0;
     width: 200px;
@@ -199,11 +196,11 @@ padding: 5% 0% 5% 20%;
 
 
 .experience-img{
-     position: absolute;
+    position: absolute;
     top: 0;
     left: 0;
     right: 0;
-       bottom: 0;
+    bottom: 0;
     height: 100%;
     width: 100%;
     object-fit: cover;
@@ -211,16 +208,12 @@ padding: 5% 0% 5% 20%;
     
 
     .experience-msg{
-  padding: 5% 15% 0% 5%;
+     padding: 1% 24% 0% 5%;
     z-index: 2;
     align-self: flex-end;
     }
 
-    .featuredwork-msg{
-   padding: 10% 20% 5% 5%;
-    align-self: flex-end;
-       }
-    
+   
     .experience-msg h3{
     width: calc(100vw - 100px);
     display: block;
@@ -228,26 +221,36 @@ padding: 5% 0% 5% 20%;
     z-index: 2;
    
     }
+       .experience-msg h2{
+  margin-top: 50px;
+  margin-bottom: 50px;
+   
+    }
     .experience .img-container {
             position: relative;
             background: red;
             width: 100%;
-             padding-top: 100%;
+            padding-top: 100%;
             z-index: 1;  
 }
 .experience-msg .btn-learn {
+    margin-top: 50px;
     border-radius: 0;
     width: 250px;
-    padding: 15px 50px;
     display: inline-block;
-    background: #f0f0f0;
+    background: white;
     color: #000;
     padding: 15px 50px;
     text-transform: uppercase;
-     font-size: 14px;
-         justify-content: center;
+    font-size: 14px;
+    justify-content: center;
     text-align: -webkit-center;
 }
+
+
+
+
+
 
 .linefeature   {
        
@@ -261,7 +264,11 @@ padding: 5% 0% 5% 20%;
     text-transform: uppercase;
     
 }
-
+ .featuredwork-msg{
+   padding: 10% 20% 5% 5%;
+    align-self: flex-end;
+       }
+    
  
 .featuredwork-msg h1{
     font-size: 75px;
@@ -273,21 +280,19 @@ padding: 5% 0% 5% 20%;
 .linefeature .btn-learn {
     border-radius: 0;
     width: 250px;
-    padding: 15px 50px;
     display: inline-block;
-    background: #f0f0f0;
+    background: #f9f7f2;
     color: #000;
     padding: 15px 50px;
     text-transform: uppercase;
-     font-size: 14px;
+    font-size: 14px;
     text-align: -webkit-center;
 }
 
 .featuredwork-img{
-     position: relative;
-            width: 100%;
-            height: 100%;
-            object-fit:cover;
+    position: relative;
+    width: 100%;
+    object-fit:cover;
 }
 /*.header h3{
     font-weight: normal;
@@ -312,7 +317,7 @@ padding: 5% 0% 5% 20%;
     width: 250px;
     padding: 15px 50px;
     display: inline-block;
-    background: #f0f0f0;
+    background: white;
     color: #000;
     padding: 15px 50px;
     text-transform: uppercase;
@@ -330,4 +335,212 @@ padding: 5% 0% 5% 20%;
             width: 100%;
             height: 100%;
             object-fit:cover;
+}
+
+ .items {
+    display: flex;
+    left: 250px;
+    font-size: 12px;
+    flex-wrap: wrap;
+   
+    }
+    .item {
+           width: calc(15% - 16px);
+        background: #f5f5f5;
+        margin: 2px;
+       
+    }
+
+    .item img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+    }
+   .carousel .items {
+        width: calc(100% - 300px);
+        padding: 15 ;
+    }
+
+  @media (max-width: 1200px) {
+      .navbar  .left  , .middle , .right {
+        left:0;
+        font-size: 12px;
+        position: relative;
+      }
+      .navbar .middle {
+      transform: translateY(50%);
+      }
+
+      .navbar .navbar-collapse{
+       
+height:100%;
+      }
+    }
+
+
+    
+    @media (max-width: 1000px) {
+       .carousel  .item {
+            width: calc(23.33% - 26%);
+        }
+        .carousel .items {
+            width: 100%;
+           
+        }
+        .featuredwork-msg {
+    padding: 0;
+    }
+
+      .footer .footericons {
+    padding: 0;
+    }
+
+    }
+
+    @media (max-width: 750px) {
+       .carousel  .item {
+            width: calc(50% - 4px);
+        }
+         .carousel .items {
+     width: 100%;
+    
+    }
+    .item img {
+        width: 100%;
+        height: 300px;
+        object-fit:cover;
+    }
+    }
+
+    @media (max-width: 500px) {
+        .carousel .item {
+            width: calc(100% - 4px);
+        }
+        
+        .carousel .items {
+     width: 100%;
+     
+    }
+   
+}
+
+
+/************************* Mobile responsive *********************************/
+
+      @media (max-width: 480px) {
+          
+/***************** Capsule Section  responsive***********************/
+        .capsuletxt  {
+           padding:0;
+        }
+        .capsule h1{
+            font-size: 3vh;
+        }
+        .capsuletxt p {
+         padding:0;
+        }
+      
+    .capsuletxt .btn-learn {
+    font-size:11px;
+    width: 150px;
+        padding: 15px;
+}
+
+    .text h1{  font-size: 3vh;
+
+    }
+     .header h3 , .text h3{  font-size: 2vh;
+
+    }
+     .text h1{  font-size: 3vh;
+
+    }
+/***************** Linefeature Section responsive ***********************/
+    .linefeature .btn-learn {
+     font-size:11px;
+    width: 150px;
+        padding: 15px;
+    
+    }
+/***************** Footer Section responsive ***********************/
+.footer .footericons h1{
+
+      font-size: 3vh;
+        padding-bottom: 20px;
+}
+.footer .footermsg {
+    padding: 0;
+}
+.footer .footermsg h1{
+    font-size: 3vh;
+    padding-bottom:20px;
+}
+.footer .footericons p{
+
+      font-size: 1.5vh;
+    
+}
+.footer .bottomtext
+{
+    margin-bottom: 20px;
+font-size: 2vh;
+display:grid;
+}
+
+   
+}
+
+
+/***************** Footer Section  ***********************/
+
+.footericons .icons{
+       display: flex;
+    flex-wrap: wrap;
+}
+
+.icons .icon{
+          margin: 9px 4px;
+    
+}
+.bottomtext{
+    display: flex;
+}
+.bottomtext P{
+    font-size: 10px;
+    padding: 0px 6px;
+    
+}
+.footericons{
+        padding: 21px 110px 0px 48px;
+}
+.footericons  h1{
+
+      font-size: 50px;
+    padding-bottom: 47px;
+}
+
+.footerbtns {
+    display: table-caption;
+}
+    .footerbtns .btn{
+       color: #a06740;
+    font-size: 14px;
+       font-family: 'Karla';
+    font-weight: 700;
+    font-style: normal;
+}   
+
+.footerline{
+    border-bottom: 1px solid rgba(159,102,63,1);
+    width: 330px;
+    font-size: 14px;
+    text-align: right;
+    font-family: 'Lato';
+    font-weight: 300;
+    font-style: normal;
+    align-self: flex-end;
+    text-transform: uppercase;
+}
+.footermsg{
+           padding: 36px 216px 9px 1px;
 }
