@@ -1,5 +1,6 @@
 body {
     background: #f9f7f2;     
+    overflow-x: hidden;
 }
 
 .right{
@@ -453,7 +454,7 @@ padding: 5% 0% 5% 20%;
         text-align: center;
         }
 
-
+/***************** Marley Message Section  responsive***********************/     
         .marley-message {
            padding:0;
             text-align: center;
@@ -478,7 +479,38 @@ padding: 5% 0% 5% 20%;
         margin: 9px auto;
         vertical-align: middle;
         }
-       
+/***************** Marley2 Section  responsive***********************/     
+.marley2-message {
+    padding: 0;
+}
+.action1, .action2, .action3 {
+   margin:0;
+}
+.line {
+   
+    font-size: 10px;
+}
+/***************** experience Section  responsive***********************/     
+.experience-msg {
+    padding: 0;
+    text-align: center;
+}
+.experience-msg h3{
+        font-size: 3.5vh;
+
+}
+.experience-msg h2{
+    font-size: 3vh;
+}
+.experience-msg .text
+ {
+    font-size: 1.5vh;
+}
+.experience-msg .btn-learn {
+    margin-top: 50px;
+ 
+    width: 200px;
+}
 /***************** Capsule Section  responsive***********************/
         .capsuletxt  {
            padding:0;
@@ -540,9 +572,13 @@ padding: 5% 0% 5% 20%;
 font-size: 2vh;
 display:grid;
 }
-
+.footerline {
+    
+    width: auto;
    
 }
+
+      }
 
 
 /***************** Footer Section  ***********************/
